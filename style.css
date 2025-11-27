@@ -180,7 +180,7 @@ ul {
     top: 15%;
 }
 
-@media (max-width:1288px) {
+@media (min-width:0px) and (max-width:1288px) {
     .sidebox {
         position: absolute;
         height: 100%;
@@ -188,7 +188,7 @@ ul {
 }
 
 .sidebox div {
-    width: 280px;
+    width: 260px;
     height: 140px;
     backdrop-filter: blur(5px);
     background-color: #242d3aaa;
@@ -291,7 +291,7 @@ ul {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    height: 200px;
+    height: auto;
     justify-content: space-around;
 
 }
@@ -1324,7 +1324,7 @@ footer {
 
     }
     .sidebox div{
-        width: 220px;
+        width: 200px;
     }
 
     .belowabout {
@@ -1348,7 +1348,7 @@ footer {
     }
 
     .threediv div {
-        height: 100%;
+        height: auto;
     }
 
     .sidebars div {
@@ -1418,13 +1418,16 @@ footer {
         align-self: center;
         width: 45%;
         height: auto;
-        gap: 20px;
+        gap: 10px;
         display: flex;
         align-items: center;
         flex-wrap: wrap;
         z-index: 2;
-        top: 15%;
+        top: 12%;
 
+    }
+    .sidebox div{
+        width: 220px;
     }
 
     .belowabout {
