@@ -1423,7 +1423,7 @@ footer {
         align-items: center;
         flex-wrap: wrap;
         z-index: 2;
-        top: 12%;
+        top: 100px;
 
     }
     .sidebox div{
