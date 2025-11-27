@@ -1825,11 +1825,18 @@ footer {
         text-align: center;
         align-self: center;
     }
+    .front1 p{
+        text-align: center;
+    }
 
     .informations {
         flex-wrap: wrap;
+        justify-content: center;
     }
-
+    .buttons1{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     .partner {
         width: 100%;
         padding: 20px;
